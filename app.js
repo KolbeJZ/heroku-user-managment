@@ -20,9 +20,7 @@ app.get('/table', db.displayUsers);
 
 app.post('/table', db.deleteUser);
 
-app.get('/sortOY', db.sortOY);
-
-app.get('/sortYO', db.sortYO);
+app.get('/sortOY', db.sortUsers);
 
 app.post('/search', db.search);
 
